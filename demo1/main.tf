@@ -14,12 +14,12 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_instance" "app_server1" {
-ami = "ami-07ffe7b5c785aaac1"
+resource "aws_instance" "app_server" {
+ami = "ami-0bff25b43a4479334"
   instance_type = "t2.micro"
   
   tags = {
-   Name = "jishant2" 
+   Name = "jishant_terraform" 
   }
 }
 
