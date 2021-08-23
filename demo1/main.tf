@@ -19,7 +19,7 @@ ami = "ami-07ffe7b5c785aaac1"
   instance_type = "t2.micro"
   
   tags = {
-   name = "jishant1" 
+   Name = "jishant2" 
   }
 }
 
